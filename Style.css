@@ -1,0 +1,202 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: lightblue;
+}
+.Main {
+    width: 736px;
+    height: 512px;
+    background-color: white ;
+    border-radius: 32px;
+    margin-top: 166px;
+    margin-left: 340px;
+    display: flex;
+    flex-direction: row;
+}
+.Blue {
+    width: 368px;
+    height: 512px;
+ background: linear-gradient(180deg, #7755FF 0%, #6943FF 0.01%, #2F2CE9 100%);
+ border-radius: 32px;
+ display: flex;
+ flex-direction: column;
+ justify-content: space-evenly;
+ align-items: center;
+}
+.Heading{
+    width: 125px;
+height: 31px;
+font-size: 24px;
+font-weight: 700;
+color: #CAC9FF;
+}
+.Circle{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    background: linear-gradient(180deg, #4D21C9 0%, rgba(37, 33, 201, 0) 100%, rgba(37, 33, 201, 0) 100%);
+}
+.Paragraph{
+    font-size: 72px;
+    font-weight: 800;
+    color: white;
+}
+.sum-number{
+    font-size: 18px;
+    font-weight: 700;
+    color: #CAC9FF;
+}
+.div-footer{
+    width: 260px;
+    height: 134px;
+    text-align: center;
+}
+.Heading2{
+    font-size: 32px;
+    font-weight: 700;
+    color: white;
+}
+.Paragraph2{
+    font-size: 18px;
+    font-weight: 500;
+    color: #CAC9FF;
+}
+.White-div{
+    height: 512px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-left: 40px;
+}
+.Headline3{
+    width: 104px;
+    height: 31px;
+    font-size: 24px;
+    font-weight: 700;
+}
+.Result-div{
+    width: 288px;
+    height: 272px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.box{
+    width: 288px;
+    height: 56px;
+    background: var(--red-95-white, linear-gradient(0deg, rgba(255, 255, 255, 0.95) 0%, rgba(255, 255, 255, 0.95) 100%), #F55);
+    border-radius: 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+.score{
+    font-size: 18px;
+    font-weight: 700;
+}
+.flash_icon{
+    width: 20px;
+    height: 20px;
+}
+.Paragraph3{
+    color: red;
+}
+.icon_box {
+    display: flex;
+}
+.box2{
+    width: 288px;
+    height: 56px;
+    background: var(--yellow-95-white, linear-gradient(0deg, rgba(255, 255, 255, 0.95) 0%, rgba(255, 255, 255, 0.95) 100%), #FFB21E);
+    border-radius: 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+.brain {
+    width: 20px;
+    height: 20px;
+}
+.paragraph4{
+    color: #FFB21E;
+}
+.icon_box2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box3{
+    width: 288px;
+    height: 56px;
+    background: var(--green-95-white, linear-gradient(0deg, rgba(255, 255, 255, 0.95) 0%, rgba(255, 255, 255, 0.95) 100%), #00BB8F);
+    border-radius: 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+.chat{
+    width: 20px;
+    height: 20px;
+}
+.paragraph5{
+    color: #00BB8F;
+}
+.icon_box3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box4{
+    width: 288px;
+    height: 56px;
+    background: var(--blue-95-white, linear-gradient(0deg, rgba(255, 255, 255, 0.95) 0%, rgba(255, 255, 255, 0.95) 100%), #1125D6);
+    border-radius: 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+.eye{
+    width: 20px;
+    height: 20px;
+}
+.paragraph6{
+    color: #1125D6 ;
+}
+.icon_box4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.submit {
+    width: 288px;
+    height: 56px;
+    background: var(--Dark-Navy, #303B59);
+    color: white;
+    border-radius: 128px;
+    display: flex;
+    border: none;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    font-weight: 700;
+}
+.slash {
+    color:  rgba(48, 59, 89, .3);
+}
